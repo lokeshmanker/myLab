@@ -20,4 +20,9 @@ public class SpringBootWebApplication {
 	public String greetings(){
 		return "Hello: Spring Boot my PCF!";
 	}
+	
+	@RequestMapping("/git")
+  	public String gitLab(){
+  		return "Git Branching works";
+  	}
 }
