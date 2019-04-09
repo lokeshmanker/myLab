@@ -1,0 +1,7 @@
+applications:
+- name: spring-boot-web
+instances: 1
+path: target/spring-boot-web-0.0.1.war
+random-route: false
+routes:
+  - route: spring-boot-webTraining.cfapps.io
