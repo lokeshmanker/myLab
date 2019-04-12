@@ -5,3 +5,5 @@ path: target/spring-boot-web-0.0.1.war
 random-route: false
 routes:
   - route: spring-boot-webTraining.cfapps.io
+buildpacks:
+  - java-buildpack-offline-cflinuxfs3-v4.19.zip

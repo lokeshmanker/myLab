@@ -18,7 +18,7 @@ public class SpringBootWebApplication {
 
 	@RequestMapping("/")
 	public String greetings(){
-		return "Hello: Spring Boot my PCF!";
+		return "I am app instance with specified buildpack.";
 	}
 	
 	@RequestMapping("/git")
